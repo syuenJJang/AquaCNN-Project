@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    background: white;
+    border-radius: 20px;
+    padding: 40px;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+    font-size: 2em;
+}
+
+.upload-area {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.upload-btn {
+    background: #667eea;
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    font-size: 16px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.upload-btn:hover {
+    background: #5568d3;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+}
+
+#preview {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#previewImage {
+    max-width: 100%;
+    max-height: 400px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+#result {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#result h2 {
+    color: #667eea;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+}
+
+.predicted-class, .confidence {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #333;
+}
+
+#predictedClass {
+    color: #667eea;
+    font-weight: bold;
+}
+
+#confidence {
+    color: #28a745;
+    font-weight: bold;
+}
+
+#loading {
+    text-align: center;
+    font-size: 1.2em;
+    color: #667eea;
+    margin-top: 20px;
+}
+#result {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* 성공 스타일 */
+.result-success {
+    border-left: 5px solid #28a745;
+}
+
+/* 경고 스타일 */
+.result-warning {
+    border-left: 5px solid #ffc107;
+    background: #fff3cd;
+}
+
+.result-warning #predictedClass {
+    color: #856404;
+}
+
+.result-warning #confidence {
+    color: #856404;
+    font-weight: normal;
+}
+
+#result h2 {
+    color: #667eea;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+}
+
+.predicted-class, .confidence {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #333;
+}
+
+#predictedClass {
+    color: #667eea;
+    font-weight: bold;
+}
+
+#confidence {
+    color: #28a745;
+    font-weight: bold;
+}
+
+#loading {
+    text-align: center;
+    font-size: 1.2em;
+    color: #667eea;
+    margin-top: 20px;
+}

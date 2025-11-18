@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>해양생물 예측  AI</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🐟 해양생물 예측 AI</h1>
+        
+        <div class="upload-area">
+            <input type="file" id="imageInput" accept="image/*" style="display: none;">
+            <button onclick="document.getElementById('imageInput').click()" class="upload-btn">
+                이미지 선택
+            </button>
+        </div>
+
+        <div id="preview" style="display: none;">
+            <img id="previewImage" src="" alt="Preview">
+        </div>
+
+        <div id="result" style="display: none;">
+            <h2>예측 결과</h2>
+            <p class="predicted-class">종류: <span id="predictedClass"></span></p>
+            <p class="confidence">신뢰도: <span id="confidence"></span></p>
+            
+            <!-- 추가된 정보 섹션 -->
+            <div id="marineInfo" style="display: none;">
+                <hr style="margin: 20px 0; border: none; border-top: 1px solid #ddd;">
+                <h3 style="color: #667eea; margin-bottom: 15px;">📊 생물 정보</h3>
+                <div class="info-item">
+                    <strong>🌊 서식지:</strong>
+                    <p id="habitat"></p>
+                </div>
+                <div class="info-item">
+                    <strong>📏 크기:</strong>
+                    <p id="size"></p>
+                </div>
+                <div class="info-item">
+                    <strong>📝 설명:</strong>
+                    <p id="description"></p>
+                </div>
+            </div>
+        </div>
+
+        <div id="loading" style="display: none;">
+            <p>분석 중...</p>
+        </div>
+    </div>
+
+    <script src="/static/js/script.js"></script>
+</body>
+</html>
