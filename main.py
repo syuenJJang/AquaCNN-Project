@@ -40,7 +40,7 @@ templates = Jinja2Templates(directory="templates")
 # MySQL 데이터베이스 설정
 DB_CONFIG = {
     "host": "your-host",
-    "user": "admin",
+    "user": "your-user",
     "password": "your-password",
     "database": "fish_db",
     "charset": "utf8mb4",
