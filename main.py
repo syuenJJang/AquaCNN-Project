@@ -39,9 +39,9 @@ templates = Jinja2Templates(directory="templates")
 
 # MySQL 데이터베이스 설정
 DB_CONFIG = {
-    "host": "prediction-db.cpyomug2w3oq.us-west-1.rds.amazonaws.com",
+    "host": "your-host",
     "user": "admin",
-    "password": "admin134679",
+    "password": "your-password",
     "database": "fish_db",
     "charset": "utf8mb4",
     "cursorclass": pymysql.cursors.DictCursor,
