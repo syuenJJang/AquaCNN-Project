@@ -27,3 +27,6 @@ pip install -r requirements.txt
 
 서버 실행
 uvicorn main:app --reload
+
+
+<img width="658" height="867" alt="image" src="https://github.com/user-attachments/assets/6965948a-82fc-4756-966a-ac04208e9756" />
