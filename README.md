@@ -13,7 +13,7 @@
 - **AI/ML**: PyTorch, Torchvision, PIL
 - **Web Backend**: FastAPI, Uvicorn
 - **Frontend**: HTML5, CSS3, JavaScript
-- **Infra/Ops**: Docker (예정)
+- **Infra/Ops**: Docker 
 
 ## 🚀 설치 및 실행 방법 (Installation)
 
