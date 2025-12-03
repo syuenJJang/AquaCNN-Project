@@ -30,3 +30,7 @@ uvicorn main:app --reload
 
 
 <img width="658" height="867" alt="image" src="https://github.com/user-attachments/assets/6965948a-82fc-4756-966a-ac04208e9756" />
+
+
+https://github.com/user-attachments/assets/4f17b4e3-4ced-4833-9831-8fb535ac3d10
+
